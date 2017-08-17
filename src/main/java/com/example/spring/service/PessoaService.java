@@ -8,4 +8,5 @@ public interface PessoaService {
 
 	Pessoa getPessoaById(long id);
 	List<Pessoa> listarTodasPessoas();
+	Pessoa salvar(Pessoa pessoa);
 }
